@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa8dacc0b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href=""><i class="fa fa-university fa-4x"  aria-hidden="true" ></i><h1>Csmu</h1></a>
+
+            <div class="nav-links" id="navLinks">
+                <i  id="hidemenu" class="fa fa-window-close-o" onclick="hidemenu()"> </i>
+                <ul>
+                    <li><i class="fa fa-home" aria-hidden="true"></i><a href="index.html">HOME</a></li>
+                    <li><i class="fa fa-info-circle" aria-hidden="true"></i><a href="about.html">ABOUT</a></li>
+                    <li><i class="fa fa-graduation-cap" aria-hidden="true"></i><a href="course.html">COURSE</a></li>
+                    <li><i class="fa fa-pencil-square-o" aria-hidden="true"></i><a href="blog.html">BLOG</a></li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i id="showmenu" class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1 class="Au">About Us</h1>
+        
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the one of the largest university in india</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Molestiae, pariatur rerum inventore ad qui commodi nisi
+                      dolores quas nobis, velit similique debitis il Lorem
+                       ipsum dolor sit amet consectetur adipisicing elit.
+                        Quis vero accusantium voluptate odit assumenda minus 
+                        enim voluptatum, alias officia nesciunt reiciendis laboriosam,
+                         reprehenderit porro repellendus maiores ex voluptates id a!</p>
+                       <a href="" class="button explore2 ">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+  
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Doloribus explicabo quam odio. Cum, veritatis illo placeat <br>
+          iusto ullam, eos facilis enim suscipit dolor sunt animi. Harum
+           odio neque eos at!</p>
+           <div class="icons">
+            <i id="f" class="fa fa-facebook" aria-hidden="true" ></i>
+            <i id="t" class="fa fa-twitter" aria-hidden="true"></i>
+            <i id="i" class="fa fa-instagram" aria-hidden="true"></i>
+            <i id="l" class="fa fa-linkedin" aria-hidden="true"></i>
+           </div>
+           <p></p>
+ </section>
+  
+     <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
